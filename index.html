@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>web</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+
+
+@keyframes slide-in {
+      0% {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 2;
+      }
+    }
+
+    .home-section {
+      animation: slide-in 1.5s ease-in-out forwards;
+    }
+
+
+
+
+
+
+
+
+body{
+  margin:0;
+  padding:0;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  
+}
+
+  header{
+  padding:20px;
+    background-color:#f3971b;
+   font-size:30px;
+  }
+ nav ul{
+  margin:0;
+  padding:0;
+ 
+ }
+  nav ul li{
+  display:inline;
+  margin-right:50px;
+  
+  }
+   nav ul li a{
+   color: black;
+   text-decoration:none;
+   
+   }
+   
+   
+   .home-section {
+   height: 400px;
+   padding: 20px;
+   text-align: center;
+   background-image:url("/storage/emulated/0/Pictures/Screenshots/IMG_20230524_183529.jpg");
+   background-repeat:no-repeat;
+   background-size:cover;
+   }
+   
+ 
+   
+ #home-section{
+   
+   background-color:#f2f2f2;
+     color:white;
+ }
+ #home-section:target{
+ background-color:#ffcccc;
+ 
+ }
+ 
+ 
+ 
+ 
+.About-section{
+ 
+  background-color:#e0e0e0;
+  color:black;
+  text-align:center;
+  padding:50px;
+  background-image:url("/storage/emulated/0/Pictures/Screenshots/IMG_20230524_183321.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+#About-section:target{
+background-color:aqua;
+}
+
+
+
+img{
+height:100px;
+width:100px;
+border-radius:50%;
+object-fit:cover;
+}
+
+
+ .skill-section{text-align:center;
+    display:flex;
+    background-color:#f2f2f2;
+    background-image:url("/storage/emulated/0/Pictures/Screenshots/IMG_20230524_183422.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    
+    }    
+    
+    .skill-box{
+    flex:1 1 auto;
+    margin:10px;
+    padding:80px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin-bottom:80px;
+    background-color:#e0e0e0;
+    margin-left:30px;
+    }
+    
+    .skill-box:active{
+    background-color:lime;
+    }
+    
+   
+    
+    
+    
+    
+    
+
+    
+.education-section{text-align:center;
+  display:flex;
+  background-color:#e0e0e0;
+  background-image:url("/storage/emulated/0/Pictures/Screenshots/IMG_20230525_175332.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+
+}    
+ .education-box{
+  margin:10px;
+  padding:50px;
+  border:1px solid #ccc;
+  border-radius:5px;
+ margin-bottom:80px;
+ background-color:#f2f2f2;
+
+ background-repeat:no-repeat;
+ background-size:cover;
+
+}
+    
+.education-box:active{
+background-color:lime;
+}
+
+
+.Contact-section {
+  background-color:#f2f2f2;
+ text-align:center;
+ padding:50px;
+ color:#ffffff;
+ background-image:url("/storage/emulated/0/Pictures/Screenshots/IMG_20230524_183434.jpg");
+ background-repeat:no-repeat;
+ background-size:cover;
+ 
+}
+#Contact-section:target{
+background-color:lime;
+}
+
+
+
+.message-section{
+display:flex;
+padding:80px;
+background-image:url("/storage/emulated/0/Pictures/Screenshots/IMG_20230525_180009.jpg");
+ background-repeat:no-repeat;
+ background-size:cover;
+ color:black;
+
+
+}
+
+.message{
+padding:50px;
+}
+
+
+
+.textbox{
+  background-color:#f2f2f2;
+  padding:100px;
+  color:#ffffff;
+  background-image:url("/storage/emulated/0/Pictures/Screenshots/IMG_20230524_182850.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+lable{
+  margin-bottom:10px;
+
+}
+
+
+
+
+.form-container {
+      width: 300px;
+    }
+    
+    .form-group {
+      margin-bottom: 10px;
+    }
+    
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .form-group input[type="text"],
+    .form-group textarea {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+
+
+
+.submit-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+.fotter-section{
+ display:flex;
+padding:10px;
+background-color:#e0e0e0;
+background-image:url("/storage/emulated/0/Pictures/Screenshots/IMG_20230524_182850.jpg");
+   background-repeat:no-repeat;
+   background-size:cover;
+color:#ffffff;
+
+}
+.phone{
+  padding:20px;
+}
+.email{ padding:20px;}
+
+.address{ padding:20px;}
+
+
+
+
+
+
+
+
+</style>
+
+</head>
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#home-section" class="nav-link">Home</a></li>
+<li><a href="#About-section" class="nav-link" >About</a></li>
+<li><a href="#skill-section"  class="nav-link">Skill</a></li>
+<li><a href="#education-section" class="nav-link">Education</a></li>
+<li><a href="#Contact-section" class="nav-link">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="home-section" class="section home-section">
+<!--<div class="section home">-->
+<h1>Hello, I am pranab</h1>
+<p>Welcomeing to my portfolio website</p>
+</div>
+</section>
+
+<section id="About-section" class="section About-section">
+<div class="section about">
+<h2>About Me</h2>
+<hr width="100" color="#f3971b">
+<img src="/storage/emulated/0/Pictures/Remini/1678710578797.jpg">
+<p>This is Pranab Kumar Mahalik.
+Iam a student of Btech 1st year in CSE branch, in Srinx College Of Engineering,Balasore,Odisha.
+Currently i am learnig Web Development.I am also interested in Machine learning(ML)and Artificial inteligence(AI)
+</p>
+</div>
+</section>
+
+<section id="skill-section" class="section skill-section">
+<div class="section skill">
+<h2>Skill</h2>
+<hr width="100" color="#f3971b">
+<div class="skill-section">
+  <div class="skill-box">
+  <div class="html">
+    <h3>HTML</h3>
+    </div>
+  </div>
+  <div class="skill-box">
+    <h3>CSS</h3>
+  </div>
+  <div class="skill-box">
+    <h3>C</h3>
+    </div>
+    <div class="skill-box">
+     <h3>JAVA</h3>
+    </div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+<section id="education-section" class="section education-section">
+<div class="section education">
+<h2>Education</h2>
+<hr width="100" color="#f3971b">
+
+<div class="education-section">
+  <div class="education-box">
+    <h2>Srinix College Of Engineering</h2>
+    <p>Degree: BTECH</p>
+    <p>Major: Computer Science</p>
+    <p>Year:2022-2026</p>
+  </div>
+  <div class="education-box">
+    <h2>Remuna Higher Secondary School</h2>
+    <p>Degree: 12th</p>
+    <p>Year:2020-2021</p>
+  </div>
+  <div class="education-box">
+    <h2>Remuna High School</h2>
+    <p>Degree:metriculation </p>
+    
+    
+  </div>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+
+<section id="Contact-section" class="section Contact-section">
+<div class="section Contact">
+  <h2>Contact</h2>
+  <h5>Contact the help team</h5>
+</div>
+</section>
+
+
+<section id="message-section" class="section message-section">
+<div class="message">
+<h2>Message</h2>
+<p>Here you can send your message.
+If you have any query then please contact and message us
+we will try to solve your query
+Thank you.
+</p>
+</div>
+
+
+<div class="textbox">
+<form>
+<div class="form-group">
+ <label for="name">NAME:</label>
+ <input type="text" id="name" name ="name" placeholder="Enter your name">
+<br>
+<br>
+<label for="Email">EMAIL:</label>
+<input type="text" id="email" name="email" placeholder="Enter your Email">
+
+<br>
+<br>
+<label for="Phone">PHONE NO:</label>
+<input type="phone" id="phone" name="phone" placeholder="Enter your phone number">
+<br>
+<br>
+
+
+<label for="message">message:</label>
+<input type="text" id="message" name="message">
+<br>
+<br>
+</div>
+<button  class="submit-button" type="submit">Submit
+</button>
+</section>
+
+
+<section id="fotter-section" class="section fotter-section">
+
+
+<div class="phone">
+<i class="fa fa-phone"></i>
+
+<font>
+<p>Phone number</p>
+</font>
+<p><a href="#" >+916370436769</a></p>
+</div>
+
+<div class="email">
+<i class="fa fa-envelope"></i>
+<font>
+<p>Email</p>
+</font>
+<p><a href="#">pranab@gmail.com</a></p>
+</div>
+
+<div class="address">
+<i class="fa fa-map-marker"></i>
+<font>
+<p>Address</p>
+</font>
+<p>Remuna,Balasore,Odisha,India</p>
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+</body>
+</html>
